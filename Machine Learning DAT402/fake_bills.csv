@@ -1,4 +1,4 @@
-is_genuine;diagonal;height_left;height_right;margin_low;margin_up;length
+is_genuine,diagonal,height_left,height_right,margin_low,margin_up,length
 True;171.81;104.86;104.95;4.52;2.89;112.83
 True;171.46;103.36;103.66;3.77;2.99;113.09
 True;172.69;104.48;103.5;4.4;2.94;113.16
