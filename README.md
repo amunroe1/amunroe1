@@ -1,5 +1,7 @@
 ## Hi there 👋
-I am currently completing an online Master's degree with Arizona State University in Software Engineering. This repository contains a sample of some of the work that I have done through courses in both my undergrad degree and my current graduate studies. I am open to full-time and internship opportunities
+I am currently completing an online Master's degree with Arizona State University in Software Engineering. This repository contains a sample of some of the work that I have done through courses in both my undergrad degree and my current graduate studies. I am open to full-time and internship opportunities. 
+
+LinkedIn: https://www.linkedin.com/in/andrew-munroe13/
 
 <!--
 **amunroe1/amunroe1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
