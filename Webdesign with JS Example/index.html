@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="main.js" defer></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  
+    <div id="heading" >
+        
+        <div id="logo"><img src="header1_small.png" alt="logo"></div>
+            
+        <div id = "navigation">
+            <nav>
+                <a href = "index.html">Home</a>
+                <a href = "#aboutUs">Our Mission</a>
+                <a href="#products">Shop</a>
+                <a href = "#pageBottom">Contact Us</a> 
+            </nav>
+        </div>
+
+        <div id="darkMode">
+            <button id="darkModeButton">Dark Mode</button>
+        </div>
+
+        <a id="toTop" href = "#heading"><img src="arrow_warm_up_24dp_E3E3E3_FILL1_wght400_GRAD0_opsz24.png"></a>
+
+    </div>
+    
+    
+    <!-- About Us section-->
+    
+    <section id = "aboutUs">
+        <br>
+        <p>At <strong>A</strong>dvanced <strong>I</strong>dea <strong>M</strong>echanics, 
+        we are dedicated to providing the best service possible. Our team of experts is here 
+        to help you with all your world conquering needs. Whether you're looking for information, support, or 
+        just want to learn more about out methods, we are here for you.
+        </p>
+        <div class = "table">
+            <div class = "tableCell">
+                <img src="Header1.png" alt="Full Logo">
+            </div>
+            <div class = "tableCell">
+                <h2>Welcome to A.I.M.</h2>
+                <p id = "sidebarText">
+                    We are a global leader in advanced technology and villainous schemes. 
+                    Our team of experts is dedicated to providing the best service possible
+                    when it comes to world domination. Here at A.I.M., we have a strong passion for
+                    pushing the boundaries of science and technology and we are committed to making the world a worse place.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Product switcher section -->
+
+        <div id="products">
+            <h3>What We're Known For:</h3>
+            <section id="product1" class="active">
+                <h2>Cosmic Cube</h2>
+                <img src="cube.jpg" alt="Cosmic Cube (marvel.fandom.com)"><br>
+                <p>Our flagship product, <a href = "https://marvel.fandom.com/wiki/Cosmic_Cube#A.I.M.'s_Cosmic_Cube">The Cosmic Cube</a>, 
+                is capable of warping reality to the wishes of the user. It was designed using cutting edge dimensional engineering to trap 
+                energies from beyond our universe.</p>
+            </section>
+            <section id="product2" class="hide">
+                <h2>M.O.D.O.K.</h2>
+                <img src="modok.webp" alt=""><br>
+                <p>
+                    Although not for purchase, <a href="https://marvel.fandom.com/wiki/M.O.D.O.K._(Earth-616)">
+                        M.O.D.O.K.</a> leads our multiple teams of scientists and engineers and is the 
+                    mastermind behind our most successful projects. M.O.D.O.K. himself was created using our own proprietery
+                    methods and is a testament to our commitment to innovation and excellence.
+                </p>
+            </section>
+            <section id="product3" class="hide">
+                <h2>Super Adaptoid</h2>
+                <img src="adaptoid.webp" alt="Super-Adaptoid (marvel.fandom.com)"><br>
+                <p>The <a href="https://marvel.fandom.com/wiki/Super-Adaptoid_(Earth-616)">Super-Adaptoid</a> is one of our most versatile projects.
+                It has the ability to fully mimic any abilities of its adversaries, making it particularly useful in carrying out villainous schemes, plots and agendas.</p>
+            </section>
+        </div>
+
+        <nav>
+            <ul>
+                <li><button id = "b1">Option 1</button></li>
+                <li><button id="b2">Option 2</button></li>
+                <li><button id="b3">Option 3</button></li>
+            </ul>
+        </nav>
+        <div class = "divider" ></div>
+
+       <!-- bottom section with number game and contact form -->
+
+        <div id = "pageBottom" class = "table">
+            
+            <section id="guessNumber" class = "subSection">
+                <h1>Guess a number between 1 and 10!</h1>
+                <form id="guessForm">
+                    <div id="gameError" class = "error"></div>
+                    <label for="guess">Enter your guess:</label>
+                    <input type="text" id="guess">
+                    
+                </form>
+                <button id="gamePlay">Play!</button>
+                <p id="gameResult"></p>     
+            </section>
+
+            <section id="contactForm" class = "subSection">
+                <h1>Sign up for updates below:</h1>
+                
+                <div id="commentsDiv">
+                    <label for="comments">Comments</label>
+                    <textarea id = "comments" name = "comments">  </textarea>
+                    <div id="commentsError" class = "error"></div>
+                </div>
+    
+                <div>
+                   <label for="fullName">Full Name</label>
+                   <input  id="fullName" name="fullName">
+                   <div id="nameError" class = "error"></div>
+                </div>
+                <br>
+    
+                <div>
+                   <label for="email">Email</label>
+                   <input  id="email" name="email" >
+                   <div id="emailError" class="error"></div>
+                </div>
+                <br>
+    
+                <form id="radios">
+                    <p>Preferred Contact Method:</p>
+                    <label for ="emailRadio"><input type="radio" id ="emailRadio" name ="contactMethod" checked></input>Email</label>
+                    
+                    <label for ="phoneRadio"><input type="radio" id = "phoneRadio" name ="contactMethod" ></input>Phone</label>
+                    <br>
+                </form>
+                
+                <div>
+                    <label for="phoneNum">Phone Number</label>
+                    <input  id="phoneNum" name="phoneNum" >
+                    <div id="phoneError" class = "error"></div>
+                 </div>
+                 <br>
+    
+                <div>
+                   <input type="submit" id="submitContact" value="Sign Up">
+                </div>
+
+                <p id = "successMessage"></p>
+            </section>
+
+        </div>
+        
+    </section>
+
+   
+</body>
+</html>
