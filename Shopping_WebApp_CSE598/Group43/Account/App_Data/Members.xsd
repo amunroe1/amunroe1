@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<!-- 
+          CSE 598: Assignment 6
+		               Member Passwords schema
+           Author: Mark Adan
+          version: 0.1
+     last updated: 11/19/25 
+	-->
+	<xs:element name="Members">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="member" type="MemberType" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- Member Details -->
+	<xs:complexType name="MemberType">
+		<xs:sequence>
+			<xs:element name="email" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="pwd" type="xs:string" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+    <xs:attribute name="level" type="LevelType" use="required"/>
+	</xs:complexType>
+	
+  <!-- Access Level-->
+  <xs:simpleType name="LevelType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="admin"/>
+      <xs:enumeration value="customer"/>
+    </xs:restriction>    
+  </xs:simpleType>
+                 
+</xs:schema>

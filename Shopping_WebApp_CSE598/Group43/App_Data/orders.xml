@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <Order id="ORD-3E4FD21D">
+    <CreatedUtc>2025-11-22T23:59:46.7743196Z</CreatedUtc>
+    <Status>Created</Status>
+    <Items>
+      <Item>
+        <ItemId>0</ItemId>
+        <Title>Pokémon Emerald Version For GBA Tested</Title>
+        <UnitPrice>22.95</UnitPrice>
+        <Quantity>1</Quantity>
+        <ShippingPrice>10.99</ShippingPrice>
+      </Item>
+      <Item>
+        <ItemId>id3</ItemId>
+        <Title>Pokémon Ruby Version (Game Boy Advance)</Title>
+        <UnitPrice>59.99</UnitPrice>
+        <Quantity>1</Quantity>
+        <ShippingPrice>10.99</ShippingPrice>
+      </Item>
+    </Items>
+    <Customer>
+      <Name>James</Name>
+      <Email>james@gmail.com</Email>
+    </Customer>
+    <Address>
+      <Street>123</Street>
+      <City>abc</City>
+      <State>NY</State>
+      <PostalCode>111111</PostalCode>
+      <Country>US</Country>
+    </Address>
+    <Shipping>
+      <EstimatedDeliveryUtc>2025-11-27T23:59:46.7743196Z</EstimatedDeliveryUtc>
+      <Carrier>UPS</Carrier>
+      <ServiceLevel>Ground</ServiceLevel>
+    </Shipping>
+    <Total>93.93</Total>
+    <Notes>use care</Notes>
+  </Order>
+  <Order id="ORD-FDC53C5C">
+    <CreatedUtc>2025-11-23T00:00:31.1365197Z</CreatedUtc>
+    <Status>Created</Status>
+    <Items>
+      <Item>
+        <ItemId>0</ItemId>
+        <Title>Pokémon Emerald Version For GBA Tested</Title>
+        <UnitPrice>22.95</UnitPrice>
+        <Quantity>3</Quantity>
+        <ShippingPrice>4.99</ShippingPrice>
+      </Item>
+      <Item>
+        <ItemId>id3</ItemId>
+        <Title>Pokémon Ruby Version (Game Boy Advance)</Title>
+        <UnitPrice>59.99</UnitPrice>
+        <Quantity>6</Quantity>
+        <ShippingPrice>4.99</ShippingPrice>
+      </Item>
+    </Items>
+    <Customer>
+      <Name>James2</Name>
+      <Email>james@gmail.com</Email>
+    </Customer>
+    <Address>
+      <Street>xyz</Street>
+      <City>bbb</City>
+      <State>CA</State>
+      <PostalCode>90210</PostalCode>
+      <Country>US</Country>
+    </Address>
+    <Shipping>
+      <EstimatedDeliveryUtc>2025-11-26T00:00:31.1365197Z</EstimatedDeliveryUtc>
+      <Carrier>UPS</Carrier>
+      <ServiceLevel>Ground</ServiceLevel>
+    </Shipping>
+    <Total>433.78</Total>
+    <Notes></Notes>
+  </Order>
+  <Order id="ORD-3B63F565">
+    <CreatedUtc>2025-11-23T00:01:02.1651242Z</CreatedUtc>
+    <Status>Created</Status>
+    <Items>
+      <Item>
+        <ItemId>0</ItemId>
+        <Title>Pokémon Emerald Version For GBA Tested</Title>
+        <UnitPrice>22.95</UnitPrice>
+        <Quantity>2</Quantity>
+        <ShippingPrice>6.99</ShippingPrice>
+      </Item>
+      <Item>
+        <ItemId>id3</ItemId>
+        <Title>Pokémon Ruby Version (Game Boy Advance)</Title>
+        <UnitPrice>59.99</UnitPrice>
+        <Quantity>3</Quantity>
+        <ShippingPrice>6.99</ShippingPrice>
+      </Item>
+    </Items>
+    <Customer>
+      <Name>James3</Name>
+      <Email>james@gmail.com</Email>
+    </Customer>
+    <Address>
+      <Street>mmm</Street>
+      <City>mmm</City>
+      <State>TX</State>
+      <PostalCode>99237</PostalCode>
+      <Country>US</Country>
+    </Address>
+    <Shipping>
+      <EstimatedDeliveryUtc>2025-11-25T00:01:02.1651242Z</EstimatedDeliveryUtc>
+      <Carrier>FedEx</Carrier>
+      <ServiceLevel>2-Day</ServiceLevel>
+    </Shipping>
+    <Total>232.86</Total>
+    <Notes></Notes>
+  </Order>
+  <Order id="ORD-BA551E9A">
+    <CreatedUtc>2025-11-23T00:01:36.2616237Z</CreatedUtc>
+    <Status>Created</Status>
+    <Items>
+      <Item>
+        <ItemId>0</ItemId>
+        <Title>Pokémon Emerald Version For GBA Tested</Title>
+        <UnitPrice>22.95</UnitPrice>
+        <Quantity>1</Quantity>
+        <ShippingPrice>9.99</ShippingPrice>
+      </Item>
+      <Item>
+        <ItemId>id3</ItemId>
+        <Title>Pokémon Ruby Version (Game Boy Advance)</Title>
+        <UnitPrice>59.99</UnitPrice>
+        <Quantity>1</Quantity>
+        <ShippingPrice>9.99</ShippingPrice>
+      </Item>
+    </Items>
+    <Customer>
+      <Name>Joe</Name>
+      <Email>joe@gmail.com</Email>
+    </Customer>
+    <Address>
+      <Street>lmnop</Street>
+      <City>nj</City>
+      <State>AL</State>
+      <PostalCode>88828</PostalCode>
+      <Country>US</Country>
+    </Address>
+    <Shipping>
+      <EstimatedDeliveryUtc>2025-11-28T00:01:36.2616237Z</EstimatedDeliveryUtc>
+      <Carrier>UPS</Carrier>
+      <ServiceLevel>Ground</ServiceLevel>
+    </Shipping>
+    <Total>92.93</Total>
+    <Notes>lolol</Notes>
+  </Order>
+</Orders>

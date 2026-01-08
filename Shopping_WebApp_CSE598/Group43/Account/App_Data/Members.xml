@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Members xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Members.xsd">
+  <!-- 
+		   CSE 598 : Assignment 6
+		             Members and Passwords
+		     author: Mark Adan
+        version: 0.1
+	 last updated: 11/19/25 
+	-->
+  <member level="admin">
+    <email>TA</email>
+    <pwd>Fvh778$</pwd>
+  </member>
+  <member level="customer">
+    <email>madan12@asu.edu</email>
+    <pwd>pdgdq457</pwd>
+  </member>
+  <member level="customer">
+    <email>madan12@yahoo.com</email>
+    <pwd>pdgdq457</pwd>
+  </member>
+  <member level="customer">
+    <email>madan12@gmail.com</email>
+    <pwd>sdvvzrug</pwd>
+  </member>
+  <member level="customer">
+    <email>mmmmmmmadan12@asu.edu</email>
+    <pwd>pdgdq457</pwd>
+  </member>
+  <member level="customer">
+    <email>janedoe@yahoo.com</email>
+    <pwd>mdqh456</pwd>
+  </member>
+  <member level="customer">
+    <email>johnsmith@yahoo.com</email>
+    <pwd>4557</pwd>
+  </member>
+  <member level="customer">
+    <email>madanabc@asu.edu</email>
+    <pwd>489:;</pwd>
+  </member>
+  <member level="customer">
+    <email>janedoe@gmail.com</email>
+    <pwd>
+    </pwd>
+  </member>
+  <member level="customer">
+    <email>janedoe@123.com</email>
+    <pwd>
+    </pwd>
+  </member>
+  <member level="customer">
+    <email>madan126@asu.edu</email>
+    <pwd>
+    </pwd>
+  </member>
+  <member level="customer">
+    <email>janedoe@unlv.edu</email>
+    <pwd>456</pwd>
+  </member>
+  <member level="customer">
+    <email>markadan@yahoo.com</email>
+    <pwd>4567</pwd>
+  </member>
+  <member level="customer">
+    <email>madan@gmail.com</email>
+    <pwd>4567</pwd>
+  </member>
+</Members>
