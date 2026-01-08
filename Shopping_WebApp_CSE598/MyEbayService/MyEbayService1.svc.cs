@@ -99,8 +99,8 @@ namespace MyEbayService
         // Production: 
         
         private const string baseUrl = "https://api.ebay.com/buy/browse/v1/";
-        private const string developerId = "";  // Registered Application ID - THRYFT
-        private const string developerSecret = "";  // Registered Application Secret - THRYFT
+        private const string developerId = "FakeID";
+        private const string developerSecret = "FakeSecret";  
         private const string tokenEndpoint = "https://api.ebay.com/identity/v1/oauth2/token";
 
         // SearchItem - the search Operation for MyEbay web service
