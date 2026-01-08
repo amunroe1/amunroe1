@@ -92,7 +92,6 @@ namespace MyEbayService
     public class MyEbayService1 : IMyEbayService1
     {
         // Sandbox (for testing):
-        //private const string ClientId = "MarkAdan-THRYFTAS-SBX-d88d12f86-c13f4bd5";
         
         //private const string baseUrl = "https://api.sandbox.ebay.com/buy/browse/v1/item_summary/search";  
 
