@@ -99,6 +99,7 @@ namespace MyEbayService
         
         private const string baseUrl = "https://api.ebay.com/buy/browse/v1/";
         private const string tokenEndpoint = "https://api.ebay.com/identity/v1/oauth2/token";
+        // Note: Replace "Fake" with your actual eBay Developer credentials
 
         // SearchItem - the search Operation for MyEbay web service
         // param: queryItem - a string of keyword(s) to search
