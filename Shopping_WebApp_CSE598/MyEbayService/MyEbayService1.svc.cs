@@ -98,8 +98,6 @@ namespace MyEbayService
         // Production: 
         
         private const string baseUrl = "https://api.ebay.com/buy/browse/v1/";
-        private const string developerId = "FakeID";
-        private const string developerSecret = "FakeSecret";  
         private const string tokenEndpoint = "https://api.ebay.com/identity/v1/oauth2/token";
 
         // SearchItem - the search Operation for MyEbay web service
@@ -142,7 +140,7 @@ namespace MyEbayService
 
             // Encode developer id and password for basic authorization
             // These are obtained after registering applications at https://developer.ebay.com
-            var credentials = $"{developerId}:{developerSecret}";
+            var credentials = $"{"Fake"}:{"Fake"}";
             var encodedCredentials = Convert.ToBase64String(Encoding.UTF8.GetBytes(credentials));
 
             // Set http headers
