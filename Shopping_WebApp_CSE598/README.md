@@ -1,4 +1,11 @@
-Project Directory
+## Project Description
+The aim of this final project is to demonstrate knowledge of lecture concepts including the Web application architecture, components and
+server controls, and state management, and access control for security. Originally, the project was completely deployed into and hosted on a Arizona State University server, but I have made it all accessible from the local machine by including all of the necessary service source code in this project. This was a collaborative project and below, in the project directory, I have included credit to my two partners.
+
+## Viewing Instructions
+The best and easiest way to view this web application is to open the "Group43.sln" Visual Studio solution file and click "Run" or F5. This should run the two SOAP services. The service for the shopping cart unfortunately was not available to me, so the "view order" capabilities are not avaiable, but all of the features specific to my developed components are functional.
+
+## Project Directory
 | Provider Name | Page and Component Type | Component Description | Resource/Methods |
 | --- | --- | --- | --- |
 | Andrew Munroe | DLL: <br> Encyption.dll | Encryption function <br> Intput:string <br> Output:string | Caesar cipher implemented locally in C# |
@@ -17,3 +24,4 @@ Project Directory
 | Andrew Munroe | login.aspx | Security Authorization Form for existing <br> members- member functionality allows members to <br> view their past orders | Encryption.dll <br> XML data storage |
 | James Cajas | Admin.aspx | Security Authorization Form for system <br> admins- admin functionality allows admins to <br> view all orders | Encryption.dll <br> XML data storage |
 | James Cajas | ShoppingOrdersPage.aspx | Order Retrieval Page | OrderService.svc |
+
