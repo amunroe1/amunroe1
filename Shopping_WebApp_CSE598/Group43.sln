@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Group43", "Group43\Group43.csproj", "{C9C30C0E-5CE3-4F2E-80E4-B3731BE27DB1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{022E10B9-DFE9-47A1-BF99-1459549B3EE4} = {022E10B9-DFE9-47A1-BF99-1459549B3EE4}
+		{F7F652BF-6076-4F42-BDD8-1CE9553696DC} = {F7F652BF-6076-4F42-BDD8-1CE9553696DC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryption", "Encryption\Encryption.csproj", "{5EF6256E-F768-45F7-BFE0-1C5C02E3F78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingLibrary", "ShippingLibrary\ShippingLibrary\ShippingLibrary\ShippingLibrary.csproj", "{95A68181-04EC-464D-B61B-FE908EFA1CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{022E10B9-DFE9-47A1-BF99-1459549B3EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEbayService", "MyEbayService\MyEbayService.csproj", "{F7F652BF-6076-4F42-BDD8-1CE9553696DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9C30C0E-5CE3-4F2E-80E4-B3731BE27DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C30C0E-5CE3-4F2E-80E4-B3731BE27DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C30C0E-5CE3-4F2E-80E4-B3731BE27DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C30C0E-5CE3-4F2E-80E4-B3731BE27DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF6256E-F768-45F7-BFE0-1C5C02E3F78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF6256E-F768-45F7-BFE0-1C5C02E3F78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF6256E-F768-45F7-BFE0-1C5C02E3F78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF6256E-F768-45F7-BFE0-1C5C02E3F78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A68181-04EC-464D-B61B-FE908EFA1CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A68181-04EC-464D-B61B-FE908EFA1CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A68181-04EC-464D-B61B-FE908EFA1CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A68181-04EC-464D-B61B-FE908EFA1CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022E10B9-DFE9-47A1-BF99-1459549B3EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022E10B9-DFE9-47A1-BF99-1459549B3EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022E10B9-DFE9-47A1-BF99-1459549B3EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022E10B9-DFE9-47A1-BF99-1459549B3EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F652BF-6076-4F42-BDD8-1CE9553696DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F652BF-6076-4F42-BDD8-1CE9553696DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F652BF-6076-4F42-BDD8-1CE9553696DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F652BF-6076-4F42-BDD8-1CE9553696DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B59763E1-1220-42C0-B5B1-2904A9E8CFCD}
+	EndGlobalSection
+EndGlobal

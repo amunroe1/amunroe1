@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+
+:root {
+    --textColor: white;
+    --backgroundColor: rgba(79, 0, 98, 0.85);
+    --buttonColor: rgba(8, 3, 3, 0.548);
+    --altText: black;
+    --sectionColor: rgba(255, 255, 255, 0.6);
+    --contrastColor: #6b6a6ad4;
+    --errorColor: rgb(116, 22, 22) ;
+}
+
+.darkMode{
+    --textColor: black;
+    --backgroundColor: #2b2727d4;
+    --buttonColor: #67187a;
+    --altText: white;
+    --sectionColor:#8b7979d4;
+    --contrastColor: #2b252d9f;
+    --errorColor: red;
+}
+
+body{
+    background-image: url("sky.png");
+    width: 1280px;
+    color: var(--altText);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Geo;
+    margin: 0 auto;
+}
+
+#toTop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
+    padding: 1em;
+    background-color: var(--buttonColor);
+    
+    border-radius: 10px;
+    font-size: 1.5em;
+    
+}
+
+#toTop:hover{
+    box-shadow:  0 0 11px rgba(236, 236, 236, 0.647);
+    cursor: pointer; 
+}
+
+
+section{
+    display: block;
+    width: calc(100% - 1em);
+    max-width: 1200px;
+    margin: 0 auto;
+    color: inherit;
+    padding: 1em 1em 3em 1em;
+    border-color: var(--textColor);
+    background-color: var(--sectionColor);
+    box-shadow: -5px 5px 5px #3d3c43;
+    height: fit-content;
+  }
+
+section p{
+    font-size: 24px;
+    text-align: left;
+    text-indent: 35px;
+}
+
+section h3{
+    font-size: 3em;
+    text-indent: 1em;
+    margin-bottom: 0;
+}
+
+
+button:hover{
+    box-shadow:  0 0 11px rgb(47, 32, 32);
+    cursor: pointer;
+}
+
+#products h2{
+    font-size: 2em;
+    font-family: Nova Square;
+    color: var(--textColor);
+    padding: 5px;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--contrastColor);
+    border-radius:10px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    box-shadow: #4f0062 0px 0px 10px;
+}
+
+#products img{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+#products section{
+    background-color: #6e6074;
+    border-radius:10px;
+    margin-right: 1em;
+    max-width: calc(100% - 4em) ;
+}
+
+#products p{
+    width: 70%;
+    margin:  0 auto;
+}
+
+
+nav ul{
+	float: none;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+nav li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+button{
+    font-size: 1.5em;
+    font-family: Geo;
+    color: var(--textColor);
+    padding: 5px;
+    width: fit-content;
+    margin: 0 2rem;
+    background-color: var(--buttonColor);
+    border: 1px solid #242424;
+    border-radius:4px;
+    transition: box-shadow .3s;
+
+}
+
+
+#heading{
+    height: 10em;
+    width: 100%;
+    display: block;
+    background-color: var(--backgroundColor);
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath opacity=".5" d="M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z"/%3E%3Cpath d="M6 5V0H5v5H0v1h5v94h1V6h94V5H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+
+#logo {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    padding: 1em;
+
+    
+}
+
+#darkMode{
+    float: right;
+    margin-left: 45%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    display: inline;
+    
+}
+
+#darkMode button{
+    color: var(--textColor);
+    background-color: var(--buttonColor);
+    border: 1px solid #242424;
+    border-radius:10px;
+    font-size: 1.5em;
+    font-family: Geo;
+    padding: .25em;
+    
+}
+#darkMode button:hover{
+    box-shadow:  0 0 11px rgba(236, 236, 236, 0.647); 
+    cursor: pointer;
+}
+
+
+.divider{
+    width: 100%;
+    text-align: left;
+    color: var(--textColor);
+    height: 10em;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0%;
+}
+section img{
+    background-color: #6e6074;
+    box-shadow: -5px 5px 5px #3d3c43;
+    border-radius: 10px;
+    display: table-cell;
+   
+    height: fit-content;
+}
+
+#sidebarText{
+    display: table-cell;
+    width: 50%;
+}
+
+
+.subSection{
+    text-align: center;
+    font-size: 2em;
+    font-family: Nova Square;
+    color: var(--textColor);
+    padding: 5px;
+    display: table-cell;
+    width: 10%;
+    height: fit-content;
+    background-color: var(--contrastColor);
+    border-radius:10px;
+}
+
+#navigation{
+    text-align:right;
+    float: right;
+    display: inline;
+    width: fit-content;
+    padding: 20px;
+    font-size: 2em;
+    color: var(--textColor);
+  }
+
+nav a{
+    color: inherit;
+    display: inline;
+    text-decoration: none;
+    padding: .25rem;
+	width: fit-content;
+	background-color: var(--buttonColor);
+    border: 1px solid #242424;
+    border-radius:10px;
+    margin: 2px;;
+    transition: box-shadow .3s;
+}
+
+nav a:hover{
+    box-shadow:  0 0 11px rgba(236, 236, 236, 0.647); 
+}
+
+.hide{
+    display: none;
+    }
+    
+div.error{
+        color: var(--errorColor);
+        margin-left: 1em;
+        font-size: large;
+    
+    }
+
+
+
+
+.table{
+    display: table;
+    border-spacing: 1em;
+    bottom: 0;
+
+}
+
+.tableCell{
+    display: table-cell;
+    vertical-align: top;
+    padding: 1em;
+    width: 50%;
+}
+
+#guessNumber form{
+    font-size: .75em;
+    margin-top: 2em;
+}
+
+#guessNumber button{
+    font-size: 1em;
+    padding: 5px;
+    margin: 1em auto;
+}
+
+#guessNumber h2{
+    font-size: 30px;
+    font-family: Geo;
+    text-align: center;
+
+}
+
+/*Tweaks to the contact form to arrange all of the elements*/
+#contactForm{
+    text-align: left;
+}
+
+section h1{
+    color: var(--altText);
+    font-size: 85%;
+    padding: 0;
+    margin-top: .5em;
+}
+
+#contactForm div{
+    font-size: 60%;
+}
+
+#contactForm div input,label{
+    display:block;
+}
+
+#contactForm{
+    padding: .28em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#contactForm p{
+    text-align: center;
+    color: var(--altText);
+    font-size: 20px;
+}
+
+/* Some tweaks to elements in the contact form */
+#commentsDiv{
+    float: right;
+    margin-right: .5em;
+    margin-left: 4em;
+}
+#comments{
+    height: 125px;
+    width: 300px;
+}
+
+#radios{
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 60%;
+}
+input[type=submit] {
+    width: 80%;;
+    font-family: Geo;
+    font-size: 24px;
+    display: block;
+    margin-right: 2em;
+    margin-left: 2em;
+    color: var(--textColor);
+    background-color: var(--buttonColor);
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+
+ /* defining error classes for the input fields in the contact form */
+ input.error  {
+    border: 2px solid var(--errorColor);
+ }
+ textarea.error{
+    border: 2px solid var(--errorColor);
+ }
+
+ input[type=submit]:hover{
+    box-shadow:  0 0 11px rgba(236, 236, 236, 0.647);
+ }
+
