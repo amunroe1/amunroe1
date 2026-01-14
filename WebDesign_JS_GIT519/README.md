@@ -1,6 +1,5 @@
 ## Instructions
-View: https://amunroe1.github.io/amunroe1/WebDesign_JS_GIT519/index.html
-To view this website locally, simply open "index.html" in your web browser from inside the project directory.
+View: https://amunroe1.github.io/amunroe1/WebDesign_JS_GIT519/index.html <br /> To view this website locally, simply open "index.html" in your web browser from inside the project directory.
 
 
 ## Project Summary
